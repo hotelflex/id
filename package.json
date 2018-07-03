@@ -1,0 +1,28 @@
+{
+  "name": "@hotelflex/id",
+  "version": "0.0.1",
+  "main": "src",
+  "scripts": {
+    "lint": "prettier src/*"
+  },
+  "pre-commit": [ "lint" ],
+  "dependencies": {
+    "fnv1a": "^1.0.1",
+    "hashids": "^1.1.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "prettier": "1.13.7",
+    "pre-commit": "^1.2.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "engines": {
+    "node": ">=8.0.0 <9.0.0",
+    "npm": ">=4.0.5 <5.0.0"
+  }
+}
