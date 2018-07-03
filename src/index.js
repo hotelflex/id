@@ -13,7 +13,7 @@ const create = seed => {
   }
   return uuid.v4()
 }
-console.log()
+
 module.exports = {
   create,
 }
