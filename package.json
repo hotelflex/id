@@ -4,7 +4,7 @@
   "main": "src",
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "dependencies": {
