@@ -1,6 +1,6 @@
 {
   "name": "@hotelflex/id",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "src",
   "scripts": {
     "lint": "prettier src/*",
