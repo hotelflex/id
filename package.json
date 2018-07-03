@@ -2,8 +2,10 @@
   "name": "@hotelflex/id",
   "version": "1.0.0",
   "main": "src",
-  "scripts": {
-    "precommit": "pretty-quick --staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   },
   "dependencies": {
     "fnv1a": "^1.0.1",
