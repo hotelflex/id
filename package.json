@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "main": "src",
   "scripts": {
-    "lint": "prettier src/*"
+    "lint": "prettier src/*",
+    "lint:fix": "prettier --write src/*",
+    "precommit-msg": "echo 'Running prettier...' && exit 0"
   },
-  "pre-commit": [ "lint" ],
+  "pre-commit": [ "precommit-msg", "lint:fix" ],
   "dependencies": {
     "fnv1a": "^1.0.1",
     "hashids": "^1.1.4",
