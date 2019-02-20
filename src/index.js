@@ -1,6 +1,7 @@
 const uuid = require('uuid')
 const hash = require('fnv1a')
 const Hashids = require('hashids')
+const shortid = require('shortid')
 const hashids = new Hashids('', 32, 'abcdefghijklmnopqrstuvwxyz0123456789')
 
 const create = seed => {
@@ -14,6 +15,9 @@ const create = seed => {
   return uuid.v4()
 }
 
+const short = () => shortid.generate()
+
 module.exports = {
   create,
+  short,
 }

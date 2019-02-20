@@ -1,6 +1,6 @@
 {
   "name": "@hotelflex/id",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "src",
   "scripts": {
     "precommit": "pretty-quick --staged"
@@ -8,6 +8,7 @@
   "dependencies": {
     "fnv1a": "^1.0.1",
     "hashids": "^1.1.4",
+    "shortid": "^2.2.14",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
